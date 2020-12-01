@@ -2,7 +2,10 @@
   "name": "aoc2020",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "d1p1": "node day1/part1.js",
+    "d1p1-dev": "nodemon day1/part1.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/The24thDS/AoC2020.git"
@@ -16,7 +19,8 @@
     "url": "https://github.com/The24thDS/AoC2020/issues"
   },
   "homepage": "https://github.com/The24thDS/AoC2020#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "nodemon": "^2.0.6"
   }
 }
